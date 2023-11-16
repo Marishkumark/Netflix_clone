@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  @apply fixed top-0 w-full flex justify-between p-5 h-16 z-10 ease-in transition-all duration-500;
+}
+
+.nav__logo {
+  @apply fixed left-5 w-[80px] object-contain;
+}
+
+.signbutton {
+  @apply fixed right-5  bg-red-800 text-white w-20 h-7 text-center justify-center rounded;
+}
+
+.nav__black {
+  @apply bg-[#111];
+}

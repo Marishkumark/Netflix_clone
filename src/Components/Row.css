@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+  @apply text-white ml-5;
+}
+
+.row__posters {
+  @apply flex overflow-y-hidden overflow-x-scroll p-5;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster {
+  @apply w-full mr-[10px] object-contain max-h-[120px] transition-transform duration-[450ms] hover:scale-[1.08];
+}
+
+.row__posterLarge {
+  @apply max-h-[200px] hover:scale-[1.09];
+}
+
+.row__netflix {
+  @apply max-h-[250px];
+}

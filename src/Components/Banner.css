@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  @apply text-white object-contain h-[448px] md:h-[520px];
+}
+
+.banner__contents {
+  @apply ml-[30px] pt-[200px] h-[190px];
+}
+
+.banner__title {
+  @apply text-5xl font-extrabold pb-3;
+}
+
+.banner__description {
+  @apply w-[45rem] leading-[1.3] pt-4 text-xs max-w-[360px] h-[80px];
+}
+
+.banner__button {
+  @apply cursor-pointer text-white outline-none border-none font-bold border-r-[0.2vw] pl-8 pr-8 mr-4 pt-2 bg-[rgba(51,51,51,0.5)]  pb-2 hover:text-black hover:bg-[#e6e6e6] transition-all duration-200;
+}
+
+.banner__fadeBottom {
+  @apply h-[6.9rem] md:h-[11.4rem] bg-gradient-to-b from-transparent via-[rgba(31,31,31,0.61)] to-[#111] mt-[8.7rem];
+}

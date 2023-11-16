@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signupScreen {
+  @apply max-w-[400px] p-[70px] ml-auto mr-auto bg-[rgba(0,0,0,0.85)];
+}
+
+.signupScreen > form {
+  @apply grid flex-row justify-center;
+}
+
+.signupScreen > form > h1 {
+  @apply text-left mb-[25px] font-semibold text-3xl;
+}
+
+.signupScreen__gray {
+  @apply text-gray-400;
+}
+
+.signupScreen > form > input {
+  @apply outline-0 md:h-[50px] md:w-[250px] h-[30px] mb-[14px] rounded-[5px] py-[5px] px-[20px] text-black;
+}
+
+.signupScreen > form > button {
+  @apply md:py-[14px] py-[8px] px-[20px] text-[1rem] text-white rounded-[5px] bg-[#e50914] font-semibold mt-5 mb-5;
+}
+
+.signupScreen__link {
+  @apply underline cursor-pointer;
+}

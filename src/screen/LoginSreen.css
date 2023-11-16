@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginScreen {
+  @apply relative h-full bg-[url("https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/cf244808-d722-428f-80a9-052acdf158ec/IN-en-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg")] bg-center bg-no-repeat bg-cover;
+}
+
+.loginScreen__logo {
+  @apply fixed left-0 w-[150px] object-contain p-5;
+}
+
+.loginScreen__button {
+  @apply fixed right-5 top-5 px-5 py-[5px] text-base text-white bg-[#e50914] font-semibold border-none cursor-pointer;
+}
+
+.loginScreen__gradient {
+  @apply w-full z-[1] h-[100vh] bg-[rgba(0,0,0,0.4)] bg-gradient-to-t from-[rgba(0,0,0,0.8)] via-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)];
+}
+
+.loginScreen__body {
+  @apply absolute top-[20%] mr-auto ml-auto  text-center z-[1] text-white p-5 w-full;
+}
+
+.loginScreen__body > h1 {
+  @apply md:text-[3.125rem] text-[1.8rem] font-semibold;
+}
+
+.loginScreen__body > h2 {
+  @apply md:text-[2rem] font-normal mb-[30px] text-[1.2rem];
+}
+
+.loginScreen__body > h3 {
+  @apply md:text-[1.3rem] font-normal text-[0.7];
+}
+
+.loginScreen__input > form > input {
+  @apply md:p-6 p-3  outline-0 h-8 w-[30%] border-none md:max-w-[600px] max-w-3xl text-black;
+}
+
+.loginScreen__getStarted {
+  @apply md:p-4 p-1.5 md:text-[1rem] text-white bg-[#e50914] font-semibold text-sm;
+}
+
+.loginScreen__input {
+  @apply m-[20px];
+}
