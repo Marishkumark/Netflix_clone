@@ -1,6 +1,5 @@
 # Netflix Clone with React, Redux, Firebase Authentication, Tailwind CSS, and Vite
 
-![Netflix Clone](https://elaborate-lokum-3b9d5c.netlify.app)
 
 ## Overview
 This project is a Netflix clone built with React, Redux, Firebase Authentication, Tailwind CSS, and Vite. It allows users to browse and watch movie trailers. The website is deployed on Netlify, and you can access it [here](https://elaborate-lokum-3b9d5c.netlify.app).
