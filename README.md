@@ -54,9 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 * * * * *
 
-```bash
 
-Feel free to customize the content further based on additional details or specific instructions for your project.
 
 
 
