@@ -48,6 +48,13 @@ Feel free to contribute to the project. Fork the repository, make your changes, 
 
 Enjoy watching movie trailers on your Netflix clone! If you encounter any issues or have suggestions, please open an issue in the GitHub repository.
 
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Marishkumark/License/blob/main/README.md) file for details.
+
+* * * * *
+
 ```bash
 
 Feel free to customize the content further based on additional details or specific instructions for your project.
