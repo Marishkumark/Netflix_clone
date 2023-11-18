@@ -2,7 +2,7 @@
 
 
 ## Overview
-This project is a Netflix clone built with React, Redux, Firebase Authentication, Tailwind CSS, and Vite. It allows users to browse and watch movie trailers. The website is deployed on Netlify, and you can access it [here](https://elaborate-lokum-3b9d5c.netlify.app).
+This project is a Netflix clone built with React, Redux, Firebase Authentication, Tailwind CSS, and Vite. It allows users to browse and watch movie trailers. The website is deployed on Netlify, and you can access it [here](https://nimble-puppy-9703ae.netlify.app/).
 
 ## Features
 - **User Authentication:** Firebase Authentication is integrated to provide secure user authentication. Users can sign up, log in, and enjoy a personalized experience.
